@@ -77,13 +77,6 @@
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>rabbitmq-tester</groupId>
-            <artifactId>rabbitmq-tester</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <type>jar</type>
-            <scope>compile</scope>
-        </dependency>
     </dependencies>
 
 </project>
