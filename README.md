@@ -1,2 +1,6 @@
 # ronoc-redis
-Packages test
+- Install packages test
+
+```
+mvn clean install
+```

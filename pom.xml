@@ -19,7 +19,7 @@
                 </repository>
                 <repository>
                     <id>github</id>
-                    <url>https://maven.pkg.github.com/conorheffron/redis-tester</url>
+                    <url>https://maven.pkg.github.com/conorheffron/*</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
@@ -40,15 +40,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <!--    <distributionManagement>-->
     <repositories>
         <repository>
             <id>github</id>
             <name>GitHub conorheffron Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/conorheffron/redis-cache-tester</url>
+            <url>https://maven.pkg.github.com/conorheffron/*</url>
         </repository>
     </repositories>
-    <!--    </distributionManagement>-->
 
     <dependencies>
         <dependency>
@@ -76,13 +74,6 @@
             <groupId>rabbitmq-tester</groupId>
             <artifactId>rabbitmq-pub-cons-tester</artifactId>
             <version>2.5.0-RELEASE</version>
-            <type>jar</type>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>rabbitmq-tester</groupId>
-            <artifactId>rabbitmq-tester</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
