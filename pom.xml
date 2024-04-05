@@ -19,7 +19,7 @@
                 </repository>
                 <repository>
                     <id>github</id>
-                    <url>https://maven.pkg.github.com/conorheffron/redis-tester</url>
+                    <url>https://maven.pkg.github.com/conorheffron/*</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
@@ -40,15 +40,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <!--    <distributionManagement>-->
     <repositories>
         <repository>
             <id>github</id>
             <name>GitHub conorheffron Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/conorheffron/redis-cache-tester</url>
+            <url>https://maven.pkg.github.com/conorheffron/*</url>
         </repository>
     </repositories>
-    <!--    </distributionManagement>-->
 
     <dependencies>
         <dependency>
