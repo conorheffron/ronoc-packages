@@ -24,13 +24,13 @@
     </distributionManagement>
          
     <dependencies>
-        <dependency>
+<!--         <dependency>
             <groupId>redis-tester</groupId>
             <artifactId>redis-cache-tester</artifactId>
             <version>2.5.0-RELEASE</version>
             <type>jar</type>
             <scope>compile</scope>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>elastic-tester</groupId>
             <artifactId>elastic-search-tester</artifactId>
