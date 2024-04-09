@@ -21,14 +21,6 @@
             </repositories>
         </profile>
     </profiles>
-
-    <servers>
-        <server>
-            <id>github</id>
-            <username>${env.USERNAME}</username>
-           <password>${env.ACCESS_TOKEN}</password>
-        </server>
-    </servers>
          
     <modelVersion>4.0.0</modelVersion>
 
