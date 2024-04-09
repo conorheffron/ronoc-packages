@@ -1,5 +1,5 @@
-# ronoc-redis
-- Install packages test
+# ronoc-packages
+- Install latest packages deployed to github 
 
 ```
 mvn clean install
