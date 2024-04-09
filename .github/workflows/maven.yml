@@ -29,8 +29,8 @@ jobs:
         cache: maven
     - name: Build with Maven
       env:
-        USERNAME: ${{ secrets.USERNAME }}
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        USERNAME: ${{ env.USERNAME }}
+        ACCESS_TOKEN: ${{ env.ACCESS_TOKEN }}
       run: mvn -B package --file pom.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
