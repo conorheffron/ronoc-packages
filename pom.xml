@@ -3,50 +3,24 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
-    <profiles>
-        <profile>
-            <id>allow-snapshots</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-        </profile>
-        <profile>
-            <id>github</id>
-            <repositories>
-                <repository>
-                    <id>github</id>
-                    <url>https://maven.pkg.github.com/conorheffron/ronoc-packages</url>
-                    <snapshots>
-                        <enabled>true</enabled>
-                    </snapshots>
-                </repository>
-                <repository>
-                    <id>central</id>
-                    <url>https://repo1.maven.org/maven2</url>
-                </repository>
-            </repositories>
-        </profile>
-    </profiles>
-
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>ie.ronoc.redis</groupId>
     <artifactId>ronoc-redis</artifactId>
     <version>2.1-RELEASE</version>
+         
+    <distributionManagement>
+         <repository>
+             <id>github</id>
+             <name>GitHub conorheffron Apache Maven Packages</name>
+             <url>https://maven.pkg.github.com/conorheffron/ronoc-packages</url>
+         </repository>
+    </distributionManagement>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <repositories>
-        <repository>
-            <id>github</id>
-            <name>GitHub conorheffron Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/conorheffron/*</url>
-        </repository>
-    </repositories>
 
     <dependencies>
         <dependency>
@@ -78,5 +52,18 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                  <artifactId>maven-compiler-plugin</artifactId>
+                  <version>3.13.0</version>
+                  <configuration>
+                           <source />
+                           <target />
+                  </configuration>
+             </plugin>
+         </plugins>
+    </build>
 
 </project>
