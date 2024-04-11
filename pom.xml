@@ -11,8 +11,8 @@
     <distributionManagement>
          <repository>
              <id>github</id>
-             <name>GitHub conorheffron Apache Maven Packages</name>
-             <url>https://maven.pkg.github.com/conorheffron/ronoc-packages</url>
+             <name>GitHub cph39 Apache Maven Packages</name>
+             <url>https://maven.pkg.github.com/cph39/ronoc-packages</url>
          </repository>
     </distributionManagement>
 
