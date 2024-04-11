@@ -22,32 +22,40 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>github</id>
+            <name>GitHub cph39 Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/conorheffron/*</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>redis-tester</groupId>
             <artifactId>redis-cache-tester</artifactId>
-            <version>2.5.0-RELEASE</version>
+            <version>2.5.1-RELEASE</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>elastic-tester</groupId>
             <artifactId>elastic-search-tester</artifactId>
-            <version>2.9.0-RELEASE</version>
+            <version>2.9.3-RELEASE</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>cron-job-sample</groupId>
             <artifactId>cron-job-sample-spring</artifactId>
-            <version>3.1.0-RELEASE</version>
+            <version>3.1.1-RELEASE</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>rabbitmq-tester</groupId>
             <artifactId>rabbitmq-pub-cons-tester</artifactId>
-            <version>2.5.0-RELEASE</version>
+            <version>2.5.1-RELEASE</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
