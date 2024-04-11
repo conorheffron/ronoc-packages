@@ -26,7 +26,7 @@
         <repository>
             <id>github</id>
             <name>GitHub cph39 Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/conorheffron/*</url>
+            <url>https://maven.pkg.github.com/cph39/*</url>
         </repository>
     </repositories>
 
