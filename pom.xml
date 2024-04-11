@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>ie.ronoc.redis</groupId>
-    <artifactId>ronoc-redis</artifactId>
+    <groupId>ie.ronoc.packages</groupId>
+    <artifactId>ronoc-packages</artifactId>
     <version>2.1-RELEASE</version>
          
     <distributionManagement>
