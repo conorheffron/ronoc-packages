@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
-    <modelVersion>4.1.1</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
     <groupId>ie.ronoc.packages</groupId>
     <artifactId>ronoc-packages</artifactId>
     <version>2.2-RELEASE</version>
