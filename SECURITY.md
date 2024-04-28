@@ -9,4 +9,4 @@
 
 ## Reporting a Vulnerability
 
-Please submit issues (here)[https://github.com/conorheffron/ronoc-packages/issues] or contact Conor Heffron.
+Please submit issues [here](https://github.com/conorheffron/ronoc-packages/issues) or contact Conor Heffron.
