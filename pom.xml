@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ie.ronoc.packages</groupId>
     <artifactId>ronoc-packages</artifactId>
-    <version>3.0-RELEASE</version>
+    <version>3.1-RELEASE</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
