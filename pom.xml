@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ie.ronoc.packages</groupId>
     <artifactId>ronoc-packages</artifactId>
-    <version>3.7-RELEASE</version>
+    <version>3.8-RELEASE</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -33,14 +33,14 @@
         <dependency>
             <groupId>elastic-tester</groupId>
             <artifactId>elastic-search-tester</artifactId>
-            <version>3.1.5-RELEASE</version>
+            <version>3.1.7-RELEASE</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>cron-job-sample</groupId>
             <artifactId>cron-job-sample-spring</artifactId>
-            <version>3.1.5-RELEASE</version>
+            <version>3.1.6-RELEASE</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
