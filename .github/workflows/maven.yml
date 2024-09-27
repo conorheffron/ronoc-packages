@@ -30,10 +30,8 @@ jobs:
     - name: Build with Maven
       env:
         TOKEN: ${{ secrets.TOKEN }}
-        USERNAME: ${{ env.USERNAME }} 
-      run: |
-        echo "$USERNAME"
-        mvn -B package --settings settings.xml --file pom.xml
+        USERNAME: ${{ secrets.USERNAME }} 
+      run: mvn -B package --settings settings.xml --file pom.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
