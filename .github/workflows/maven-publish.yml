@@ -24,15 +24,11 @@ jobs:
         distribution: 'temurin'
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
         settings-path: ${{ github.workspace }} # location for the settings.xml file
-        
+
     - name: Build with Maven
-      env:
-        TOKEN: ${{ secrets.TOKEN }}
-        USERNAME: ${ env.USERNAME } 
-      run: mvn -B package --settings settings.xml --file pom.xml
+      run: mvn -B package --file pom.xml
 
     - name: Publish to GitHub Packages Apache Maven
+      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       env:
-          TOKEN: ${{ secrets.TOKEN }}
-          USERNAME: ${ env.USERNAME } 
-      run: mvn deploy -s settings.xml
+        GITHUB_TOKEN: ${{ github.token }}
