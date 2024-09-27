@@ -3,24 +3,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>ie.ronoc.packages</groupId>
+    <groupId>conorheffron</groupId>
     <artifactId>ronoc-packages</artifactId>
-    <version>4.2.0-RELEASE</version>
-
-    <properties>
-        <maven.compiler.source>23</maven.compiler.source>
-        <maven.compiler.target>23</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <version>4.3.0</version>
+    <packaging>jar</packaging>
 
     <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Repository</name>
-            <url>https://maven.pkg.github.com/conorheffron/${project.artifactId}</url>
-        </repository>
+       <repository>
+         <id>github</id>
+           <name>GitHub conorheffron Apache Maven Packages</name>
+           <url>https://maven.pkg.github.com/conorheffron/ronoc-packages</url>
+       </repository>
     </distributionManagement>
+
+    <name>ronoc-packages</name>
+    <description>ronoc packages & dependecny install tester</description>
 
     <dependencies>
         <dependency>
