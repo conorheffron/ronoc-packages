@@ -17,7 +17,7 @@
     </distributionManagement>
 
     <name>ronoc-packages</name>
-    <description>ronoc packages & dependecny install tester</description>
+    <description>ronoc packages and dependecny install tester</description>
 
     <dependencies>
         <dependency>
