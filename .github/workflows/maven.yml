@@ -27,11 +27,13 @@ jobs:
         java-version: '23'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
+    - name: Build with Maven and Publish Package
       env:
         TOKEN: ${{ secrets.TOKEN }}
         USERNAME: ${ env.USERNAME } 
-      run: mvn -B package --settings settings.xml --file pom.xml
+      run: |
+        mvn -B package --settings settings.xml --file pom.xml
+        mvn deploy -s $GITHUB_WORKSPACE/settings.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     # - name: Update dependency graph
