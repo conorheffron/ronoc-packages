@@ -5,7 +5,7 @@
 
          <groupId>conorheffron</groupId>
          <artifactId>ronoc-packages</artifactId>
-         <version>4.3.0</version>
+         <version>4.3.1</version>
          <packaging>jar</packaging>
          
          <distributionManagement>
