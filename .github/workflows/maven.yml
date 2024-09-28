@@ -29,6 +29,7 @@ jobs:
         cache: maven
     - name: Build with Maven
       env:
+        GITHUB_TOKEN: ${{ github.token }}
         TOKEN: ${{ secrets.TOKEN }}
         USERNAME: ${ env.USERNAME } 
       run: |
