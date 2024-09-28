@@ -33,7 +33,7 @@ jobs:
         USERNAME: ${ env.USERNAME } 
       run: |
         mvn clean -B package --settings settings.xml --file pom.xml
-        run: mvn deploy -s .m2/settings.xml
+        mvn deploy -s .m2/settings.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
