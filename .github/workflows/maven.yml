@@ -35,13 +35,6 @@ jobs:
         USERNAME: ${ env.USERNAME } 
       run: |
         mvn clean -B package --settings $GITHUB_WORKSPACE/settings.xml --file pom.xml
-
-    - name: Publish to GitHub Packages Apache Maven
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
-        TOKEN: ${{ secrets.TOKEN }}
-        USERNAME: ${ env.USERNAME }
-      run: |
         mvn deploy -s $GITHUB_WORKSPACE/settings.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
