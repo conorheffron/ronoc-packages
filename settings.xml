@@ -24,7 +24,7 @@
                 </repository>
                 <repository>
                     <id>github</id>
-                    <url>https://maven.pkg.github.com/*</url>
+                    <url>https://maven.pkg.github.com/conorheffron/ronoc-packages</url>
                 </repository>
             </repositories>
         </profile>
