@@ -4,7 +4,7 @@
     <servers>
         <server>
             <id>github</id>
-            <usernameUSERNAME</username>
+            <username>USERNAME</username>
             <password>TOKEN</password>
         </server>
     </servers>
