@@ -31,8 +31,6 @@ jobs:
     - name: Build with Maven
       env:
         GITHUB_TOKEN: ${{ github.token }}
-        TOKEN: ${{ secrets.TOKEN }}
-        USERNAME: ${ env.USERNAME } 
       run: |
         mvn clean -B package --settings $GITHUB_WORKSPACE/settings.xml --file pom.xml
         mvn deploy -s $GITHUB_WORKSPACE/settings.xml
