@@ -4,13 +4,12 @@
     <servers>
         <server>
             <id>github</id>
-            <username>${env.USERNAME}</username>
-            <password>${env.TOKEN}</password>
+            <usernameUSERNAME</username>
+            <password>TOKEN</password>
         </server>
     </servers>
 
     <activeProfiles>
-        <activeProfile>general</activeProfile>
         <activeProfile>github</activeProfile>
     </activeProfiles>
 
