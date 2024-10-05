@@ -23,7 +23,7 @@
                 </repository>
                 <repository>
                     <id>github</id>
-                    <url>https://maven.pkg.github.com/conorheffron/*</url>
+                    <url>https://maven.pkg.github.com/*</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
