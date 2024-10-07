@@ -29,7 +29,7 @@ jobs:
       env:
         TOKEN: ${{ secrets.TOKEN }}
         USERNAME: ${ env.USERNAME } 
-        # GITHUB_TOKEN: ${{ github.token }}
+        GITHUB_TOKEN: ${{ github.token }}
       run: |
-        mvn -B package --settings settings.xml --file pom.xml
-        mvn deploy -s settings.xml
+        mvn -B package --settings $GITHUB_WORKSPACE/settings.xml --file pom.xml
+        mvn deploy -s $GITHUB_WORKSPACE/settings.xml
