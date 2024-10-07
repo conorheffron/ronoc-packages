@@ -10,7 +10,7 @@
     </servers>
 
     <activeProfiles>
-        <activeProfile>github</activeProfile>
+        <activeProfile>general</activeProfile>
     </activeProfiles>
 
     <profiles>
@@ -22,7 +22,7 @@
                     <url>https://repo1.maven.org/maven2</url>
                 </repository>
                 <repository>
-                    <id>github</id>
+                    <id>general</id>
                     <url>https://maven.pkg.github.com/conorheffron/*</url>
                     <snapshots>
                         <enabled>true</enabled>
