@@ -34,3 +34,4 @@ jobs:
         USERNAME: ${ env.USERNAME } 
       run: |
         mvn -B package --settings settings.xml --file pom.xml
+        mvn deploy -s settings.xml
