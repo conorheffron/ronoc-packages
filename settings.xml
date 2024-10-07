@@ -15,7 +15,7 @@
 
     <profiles>
         <profile>
-            <id>github</id>
+            <id>general</id>
             <repositories>
                 <repository>
                     <id>central</id>
