@@ -16,7 +16,7 @@
                                         </repository>
                                         <repository>
                                                   <id>github</id>
-                                                  <url>https://maven.pkg.github.com/conorheffron/ronoc-packages/*</url>
+                                                  <url>https://maven.pkg.github.com/conorheffron/*</url>
                                                   <snapshots>
                                                             <enabled>true</enabled>
                                                   </snapshots>
