@@ -30,7 +30,7 @@
         <server>
             <id>github</id>
             <username>${{env.USERNAME}}</username>
-            <password>${{secrets.TOKEN}}</password>
+            <password>${{env.TOKEN}}</password>
         </server>
     </servers>
 </settings>
