@@ -28,8 +28,8 @@
     <servers>
         <server>
             <id>github</id>
-            <username>${env.USERNAME}</username>
-            <password>${secrets.TOKEN}</password>
+            <username>USERNAME</username>
+            <password>TOKEN</password>
         </server>
     </servers>
 </settings>
