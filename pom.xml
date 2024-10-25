@@ -36,14 +36,14 @@
         <dependency>
                <groupId>elastic-tester</groupId>
                <artifactId>elastic-search-tester</artifactId>
-               <version>3.2.2-RELEASE</version>
+               <version>3.2.3-RELEASE</version>
                <type>jar</type>
                <scope>compile</scope>
         </dependency>
         <dependency>
                <groupId>cron-job-sample</groupId>
                <artifactId>cron-job-sample-spring</artifactId>
-               <version>3.2.2-RELEASE</version>
+               <version>3.2.3-RELEASE</version>
                <type>jar</type>
                <scope>compile</scope>
         </dependency>
@@ -57,14 +57,14 @@
         <dependency>
                <groupId>conorheffron</groupId>
                <artifactId>ironoc-db</artifactId>
-               <version>5.3.4</version>
+               <version>5.3.5</version>
                <type>war</type>
                <scope>compile</scope>
         </dependency>
         <dependency>
                <groupId>conorheffron</groupId>
                <artifactId>ironoc</artifactId>
-               <version>5.2.6</version>
+               <version>5.2.7</version>
                <type>war</type>
                <scope>compile</scope>
         </dependency>
