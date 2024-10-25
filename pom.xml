@@ -12,7 +12,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub conorheffron Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/conorheffron/ronoc-packages</url>
+			<url>https://maven.pkg.github.com/conorheffron/*</url>
 		</repository>
 	</distributionManagement>
 	
