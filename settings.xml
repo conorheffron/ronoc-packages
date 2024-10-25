@@ -5,7 +5,7 @@
         <server>
             <id>github</id>
             <username>${env.USERNAME}</username>
-            <password>${env.TOKEN}</password>
+            <password>${secrets.TOKEN}</password>
         </server>
     </servers>
 
