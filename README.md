@@ -2,5 +2,5 @@
 - Install latest packages deployed to github 
 
 ```
-mvn clean package
+mvn clean package -U
 ```
