@@ -5,7 +5,7 @@
 
 	<groupId>conorheffron</groupId>
 	<artifactId>ronoc-packages</artifactId>
-	<version>6.0.4</version>
+	<version>6.0.5</version>
 	<packaging>jar</packaging>
 	
 	<distributionManagement>
@@ -50,7 +50,7 @@
 		<dependency>
 		       <groupId>rabbitmq-tester</groupId>
 		       <artifactId>rabbitmq-pub-cons-tester</artifactId>
-		       <version>2.5.9-RELEASE</version>
+		       <version>2.6.1-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
