@@ -5,7 +5,7 @@
 
 	<groupId>conorheffron</groupId>
 	<artifactId>ronoc-packages</artifactId>
-	<version>6.3.3</version>
+	<version>6.3.4</version>
 	<packaging>jar</packaging>
 	
 	<distributionManagement>
@@ -55,11 +55,11 @@
 		       <scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.in.mem.cache.sys</groupId>
-			<artifactId>app</artifactId>
-			<version>1.0.7-RELEASE</version>
-			<type>jar</type>
-			<scope>compile</scope>
+		       <groupId>com.in.mem.cache.sys</groupId>
+		       <artifactId>app</artifactId>
+		       <version>1.0.7-RELEASE</version>
+		       <type>jar</type>
+		       <scope>compile</scope>
 		</dependency>
 		<dependency>
 		       <groupId>conorheffron</groupId>
