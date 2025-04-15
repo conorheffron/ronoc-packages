@@ -5,7 +5,7 @@
 
 	<groupId>conorheffron</groupId>
 	<artifactId>ronoc-packages</artifactId>
-	<version>6.3.4</version>
+	<version>6.3.5</version>
 	<packaging>jar</packaging>
 	
 	<distributionManagement>
@@ -36,14 +36,14 @@
 		<dependency>
 		       <groupId>elastic-tester</groupId>
 		       <artifactId>elastic-search-tester</artifactId>
-		       <version>3.3.4-RELEASE</version>
+		       <version>3.3.5-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
 		<dependency>
 		       <groupId>cron-job-sample</groupId>
 		       <artifactId>cron-job-sample-spring</artifactId>
-		       <version>3.3.1-RELEASE</version>
+		       <version>3.3.2-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
@@ -57,21 +57,21 @@
 		<dependency>
 		       <groupId>com.in.mem.cache.sys</groupId>
 		       <artifactId>app</artifactId>
-		       <version>1.0.7-RELEASE</version>
+		       <version>1.0.8-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
 		<dependency>
 		       <groupId>conorheffron</groupId>
 		       <artifactId>ironoc-db</artifactId>
-		       <version>6.1.4</version>
+		       <version>6.1.5</version>
 		       <type>war</type>
 		       <scope>compile</scope>
 		</dependency>
 		<dependency>
 		       <groupId>conorheffron</groupId>
 		       <artifactId>ironoc</artifactId>
-		       <version>7.2.8</version>
+		       <version>7.3.1</version>
 		       <type>war</type>
 		       <scope>compile</scope>
 		</dependency>
