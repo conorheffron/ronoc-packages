@@ -5,7 +5,7 @@
 
 	<groupId>conorheffron</groupId>
 	<artifactId>ronoc-packages</artifactId>
-	<version>6.4.6</version>
+	<version>6.4.7</version>
 	<packaging>jar</packaging>
 	
 	<distributionManagement>
@@ -36,7 +36,7 @@
 		<dependency>
 		       <groupId>elastic-tester</groupId>
 		       <artifactId>elastic-search-tester</artifactId>
-		       <version>3.3.9-RELEASE</version>
+		       <version>3.4.1-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
