@@ -5,7 +5,7 @@
 
 	<groupId>conorheffron</groupId>
 	<artifactId>ronoc-packages</artifactId>
-	<version>6.8.3</version>
+	<version>6.8.4</version>
 	<packaging>jar</packaging>
 	
 	<distributionManagement>
@@ -64,7 +64,7 @@
 		<dependency>
 		       <groupId>conorheffron</groupId>
 		       <artifactId>ironoc-db</artifactId>
-		       <version>6.2.8</version>
+		       <version>6.2.9</version>
 		       <type>war</type>
 		       <scope>compile</scope>
 		</dependency>
