@@ -57,7 +57,7 @@
 		<dependency>
 		       <groupId>com.in.mem.cache.sys</groupId>
 		       <artifactId>app</artifactId>
-		       <version>1.2.5-RELEASE</version>
+		       <version>1.2.6-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
@@ -71,7 +71,7 @@
 		<dependency>
 		       <groupId>conorheffron</groupId>
 		       <artifactId>ironoc</artifactId>
-		       <version>8.0.7</version>
+		       <version>8.0.6</version>
 		       <type>war</type>
 		       <scope>compile</scope>
 		</dependency>
