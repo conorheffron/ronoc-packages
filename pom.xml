@@ -27,9 +27,9 @@
 	
 	<dependencies>
 		<dependency>
-		       <groupId>redis-tester</groupId>
+		       <groupId>net.ironoc.redis</groupId>
 		       <artifactId>redis-cache-tester</artifactId>
-		       <version>2.6.5-RELEASE</version>
+		       <version>2.6.6-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
