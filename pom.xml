@@ -5,7 +5,7 @@
 
 	<groupId>conorheffron</groupId>
 	<artifactId>ronoc-packages</artifactId>
-	<version>7.8.4</version>
+	<version>7.8.5</version>
 	<packaging>jar</packaging>
 	
 	<distributionManagement>
@@ -43,14 +43,14 @@
 		<dependency>
 		       <groupId>net.ironoc.cron</groupId>
 		       <artifactId>cron-job-sample-spring</artifactId>
-		       <version>3.5.2-RELEASE</version>
+		       <version>3.5.3-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
 		<dependency>
 		       <groupId>net.ironoc.mq</groupId>
 		       <artifactId>rabbitmq-pub-cons-tester</artifactId>
-		       <version>3.0.2-RELEASE</version>
+		       <version>3.0.3-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
