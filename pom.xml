@@ -5,7 +5,7 @@
 
 	<groupId>conorheffron</groupId>
 	<artifactId>ronoc-packages</artifactId>
-	<version>7.9.0</version>
+	<version>7.9.1</version>
 	<packaging>jar</packaging>
 	
 	<distributionManagement>
@@ -29,14 +29,14 @@
 		<dependency>
 		       <groupId>net.ironoc.redis</groupId>
 		       <artifactId>redis-cache-tester</artifactId>
-		       <version>2.6.8-RELEASE</version>
+		       <version>2.6.9-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
 		<dependency>
 			   <groupId>net.ironoc.elastic</groupId>
 		       <artifactId>elastic-search-tester</artifactId>
-		       <version>3.5.7-RELEASE</version>
+		       <version>3.5.8-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
@@ -50,28 +50,28 @@
 		<dependency>
 		       <groupId>net.ironoc.mq</groupId>
 		       <artifactId>rabbitmq-pub-cons-tester</artifactId>
-		       <version>3.0.3-RELEASE</version>
+		       <version>3.0.4-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
 		<dependency>
 		       <groupId>com.in.mem.cache.sys</groupId>
 		       <artifactId>app</artifactId>
-		       <version>1.2.8-RELEASE</version>
+		       <version>1.2.9-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
 		<dependency>
 		       <groupId>conorheffron</groupId>
 		       <artifactId>ironoc-db</artifactId>
-		       <version>7.0.14</version>
+		       <version>7.0.15</version>
 		       <type>war</type>
 		       <scope>compile</scope>
 		</dependency>
 		<dependency>
 		       <groupId>conorheffron</groupId>
 		       <artifactId>ironoc</artifactId>
-		       <version>9.0.1</version>
+		       <version>9.0.2</version>
 		       <type>war</type>
 		       <scope>compile</scope>
 		</dependency>
