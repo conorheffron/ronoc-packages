@@ -36,7 +36,7 @@
 		<dependency>
 			   <groupId>net.ironoc.elastic</groupId>
 		       <artifactId>elastic-search-tester</artifactId>
-		       <version>3.5.9-RELEASE</version>
+		       <version>3.6.0-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
