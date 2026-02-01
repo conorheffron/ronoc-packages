@@ -5,7 +5,7 @@
 
 	<groupId>conorheffron</groupId>
 	<artifactId>ronoc-packages</artifactId>
-	<version>8.0.0</version>
+	<version>8.0.1</version>
 	<packaging>jar</packaging>
 	
 	<distributionManagement>
@@ -50,7 +50,7 @@
 		<dependency>
 		       <groupId>net.ironoc.mq</groupId>
 		       <artifactId>rabbitmq-pub-cons-tester</artifactId>
-		       <version>3.0.5-RELEASE</version>
+		       <version>3.0.6-RELEASE</version>
 		       <type>jar</type>
 		       <scope>compile</scope>
 		</dependency>
