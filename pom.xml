@@ -5,7 +5,7 @@
 
 	<groupId>conorheffron</groupId>
 	<artifactId>ronoc-packages</artifactId>
-	<version>8.1.8</version>
+	<version>8.1.9</version>
 	<packaging>jar</packaging>
 	
 	<distributionManagement>
